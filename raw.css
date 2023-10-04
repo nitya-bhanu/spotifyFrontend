@@ -1,0 +1,153 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+/***styling the header sections***/
+.headerAttri{
+    font-size: 40px;
+    height: 16vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -20px;
+    position: fixed;
+    top: 1vh;
+    width: 100%;
+    background-color:black;
+    color: rgb(54, 129, 54);
+    font-weight: bold;
+}
+.headerAttri img{
+    width: 40px;
+    border-radius: 100%;
+    height: 40px;
+    margin-left: 10px;
+}
+
+/******styling the middle content after header****/
+.side-pane{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    width: 100%;
+}
+.side-pane img{
+    width: 70px;
+}
+.middle-content{
+    display: flex;
+    flex-direction: row;
+    margin-top: -15px;
+}
+/****styling the home and search icon*****/
+nav{
+    background-color: rgb(20, 20, 20);
+}
+nav p{
+font-size: 20px;
+text-align: center;
+padding-top: 15px;
+}
+nav img{
+    width: 30px;
+    margin-left: 30px;
+}
+
+/****styling the left your own saved playlist and library section****/
+section.left-section{
+    background-color: rgb(20, 20, 20);
+    width: 24vw;
+    height:90vh;
+}
+aside{
+    width: 24vw;
+    position: fixed;
+    top:10vh;
+}
+.left-section{
+    text-align: center;
+}
+input.search-bar{
+    width: 18vw;
+    padding: 5px;
+    align-items: center;
+}
+/**********styling the right pane***********/
+
+/**styling the top right navigation pane**/
+.navs{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 7px;
+    width: 24vw;
+}
+.navigation-buttons{
+    display: flex;
+}
+.navigation-buttons img.backImg{
+    width: 40px;
+    color: white;
+}
+.navigation-buttons img.forwardImg{
+    transform: scaleX(-1);
+    width: 40px;
+}
+
+
+/******stying the right bottom pane *********/
+.right-pane{
+    background-color: rgb(20, 20, 20);
+    margin-left: 25vw;
+    margin-top: 14vh;
+}
+.right-pane p{
+    font-size: 24px;
+    padding-left: 30px;
+    background-color: black;
+    padding: 30px;
+}
+.recent-playlist{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.artist-playlist{
+    flex-wrap: wrap;
+}
+.suggested-playlist, .artist-playlist{
+flex-wrap:wrap;
+}
+
+/***styling the footer section including now playing banners and other play pause icons ****/
+.now-playing{
+    top:88vh;
+    height: 20vh;
+    background-color: antiquewhite;
+    position: fixed;
+    width: 100%;
+}
+.footer-start{
+    position: fixed;
+    top:90vh;
+    height: 20vh;
+    padding-left: 8px;
+    height: 20vh;
+}
+.footer-start img{
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+}
+.footer-start p{
+    padding-left: 10px;
+    color: rgb(84, 88, 88);
+}
+.footer-middle{
+    position: fixed;
+    top:60vh;
+    height: 20vh;
+    left:33vw;
+    flex-direction: column;
+}
